@@ -1,0 +1,172 @@
+{
+	"days": [
+		{
+			"idName": "box1",
+			"title": "Programming and Emotion",
+			"content": "A video from freelance web developer Peter Fisher on programming and emotion.",
+			"tube": "https://www.youtube.com/embed/qflU86xNeis",
+			"link": "https://www.youtube.com/embed/qflU86xNeis"
+		},
+		{
+			"idName": "box2",
+			"title": "Creating a modal in JavaScript and CSS",
+			"content": "Instructions on how to create a modal in JavaScript and CSS without using a framework.",
+			"tube": "",
+			"link": "https://www.w3schools.com/howto/howto_css_modals.asp"
+		},
+		{
+			"idName": "box3",
+			"title": "Reading a local JSON file in JavaScript",
+			"content": "How to use XMLHttpRequest to read a local JSON file in JavaScript",
+			"tube": "",
+			"link": "https://www.w3schools.com/XML/dom_httprequest.asp"
+		},
+		{
+			"idName": "box4",
+			"title": "How to use cURL in PHP to extract data from a web page",
+			"content": "An article and video on how to use cURL functionality in PHP to automate extracting data from a web page.",
+			"tube": "",
+			"link": "https://clevertechie.com/php/24/php-curl-tutorial"
+		},
+		{
+			"idName": "box5",
+			"title": "Unit Testing in PHP",
+			"content": "A video explaining Unit Testing in PHP using PHPUnit. This is the first video in a series of ten.",
+			"tube": "https://www.youtube.com/embed/k9ak_rv9X0Y",
+			"link": "https://www.youtube.com/embed/k9ak_rv9X0Y"
+		},
+		{
+			"idName": "box6",
+			"title": "First Steps in Z80 Assembly Language",
+			"content": "A guide to taking your first steps in Z80 assembly language by Darryl Sloan. A four part series with code, explaining how to code using the Z80 processor.",
+			"tube": "https://www.youtube.com/embed/1gHlMpO8gqw",
+			"link": "https://www.youtube.com/embed/1gHlMpO8gqw"
+		},
+		{
+			"idName": "box7",
+			"title": "JavaScript ES6 Arrow Functions",
+			"content": "Peter Fisher explains how to use JavaScript ES6 arrow functions.",
+			"tube": "https://www.youtube.com/embed/36L9dK1LGRc",
+			"link": "https://www.youtube.com/embed/36L9dK1LGRc"
+		},
+		{
+			"idName": "box8",
+			"title": "Old is the New New",
+			"content": "Talk from Kevlin Henney on how many seemingly new programming approaches were discovered decades ago.",
+			"tube": "https://www.youtube.com/embed/AbgsfeGvg3E",
+			"link": "https://www.youtube.com/embed/AbgsfeGvg3E"
+		},
+		{
+			"idName": "box9",
+			"title": "Losing motivation",
+			"content": "Video from MPJ of FunFunFunction on losing motivation.",
+			"tube": "https://www.youtube.com/embed/RQg_Q4HYYpg",
+			"link": "https://www.youtube.com/embed/RQg_Q4HYYpg"
+		},
+		{
+			"idName": "box10",
+			"title": "Copying Text to the Clipboard using JavaScript.",
+			"content": "Example code on how to copy text to the clipboard using JavaScript.",
+			"tube": "",
+			"link": "https://www.tutorialspoint.com/how-to-copy-text-to-the-clipboard-with-javascript"
+		},
+		{
+			"idName": "box11",
+			"title": "Coders are Herd Animals",
+			"content": "Video from MPJ of FunFunFunction on on why Coders are herd animals.",
+			"tube": "https://www.youtube.com/embed/lrf6xuFq1Ms",
+			"link": "https://www.youtube.com/embed/lrf6xuFq1Ms"
+		},
+		{
+			"idName": "box12",
+			"title": "Outdated UX Patterns and Alternatives",
+			"content": "Article explaining a number of outdated UX patterns with suggestions for better alternatives.",
+			"tube": "",
+			"link": "http://sideproject.io/outdated-ux-patterns/"
+		},
+		{
+			"idName": "box13",
+			"title": "Should I Use a Carousel?",
+			"content": "A website dedicated to the question 'Should I use a carousel?'.",
+			"tube": "",
+			"link": "http://shouldiuseacarousel.com/"
+		},
+		{
+			"idName": "box14",
+			"title": "The Growth Stages of a Programmer",
+			"content": "In this video, MPJ explains the growth stages of a programmer.",
+			"tube": "https://www.youtube.com/embed/2qYll837a_0",
+			"link": "https://www.youtube.com/embed/2qYll837a_0"
+		},
+		{
+			"idName": "box15",
+			"title": "Cutting Corners in Web Development",
+			"content": "A video from freelance web developer Peter Fisher on cutting corners in web development and why some corners should never be cut.",
+			"tube": "https://www.youtube.com/embed/xu8ETvzLutw",
+			"link": "https://www.youtube.com/embed/xu8ETvzLutw"
+		},
+		{
+			"idName": "box16",
+			"title": "Present &amp; Correct",
+			"content": "Art and design blog. An inspirational site for retro design and colours. Also sells stationery and office objects",
+			"tube": "",
+			"link": "http://blog.presentandcorrect.com/"
+		},
+		{
+			"idName": "box17",
+			"title": "PDO Tutorial",
+			"content": "An in-depth PDO tutorial by PHPDelusions.",
+			"tube": "",
+			"link": "https://phpdelusions.net/pdo"
+		},
+		{
+			"idName": "box18",
+			"title": "Sprite Animation in JavaScript using Canvas",
+			"content": "A tutorial on how to create a sprite animation in HTML5 and JavaScript using Canvas.",
+			"tube": "",
+			"link": "http://www.williammalone.com/articles/create-html5-canvas-javascript-sprite-animation/"
+		},
+		{
+			"idName": "box19",
+			"title": "25 Years of PHP",
+			"content": "A talk on 25 years of PHP, by its creator Rasmus Lerdorf.",
+			"tube": "https://www.youtube.com/embed/wCZ5TJCBWMg",
+			"link": "https://www.youtube.com/embed/wCZ5TJCBWMg"
+		},
+		{
+			"idName": "box20",
+			"title": "Finding the Browser Width in JavaScript",
+			"content": "Article on how to get the width of the browser in vanilla JavaScript.",
+			"tube": "",
+			"link": "https://stackoverflow.com/questions/1038727/how-to-get-browser-width-using-javascript-code"
+		},
+		{
+			"idName": "box21",
+			"title": "Sending Email using PHP",
+			"content": "How to send email using PHP. Example code shown for sending in text and HTML format. Also demonstrates how to send email with attachments.",
+			"tube": "",
+			"link": "https://webcheatsheet.com/PHP/send_email_text_html_attachment.php"
+		},
+		{
+			"idName": "box22",
+			"title": "How to Learn to Code Fast",
+			"content": "Peter Fisher breaks down the truth on learning programming and the quest for tutorials on 'How to learn to code fast'.",
+			"tube": "https://www.youtube.com/embed/12dhoP-5Hvg",
+			"link": "https://www.youtube.com/embed/12dhoP-5Hvg"
+		},
+		{
+			"idName": "box23",
+			"title": "Bruce Lee on Programming",
+			"content": "A talk on Bruce Lee's philosophy on programming by Speaker Tony Van Eerd.",
+			"tube": "https://www.youtube.com/embed/3Ii_ALXDG70",
+			"link": "https://www.youtube.com/embed/3Ii_ALXDG70"
+		},
+		{
+			"idName": "box24",
+			"title": "You Will Never Learn Everything",
+			"content": "Coding advice from Peter Fisher on why you will never learn everything in web development.",
+			"tube": "https://www.youtube.com/embed/lGwj1fly6ds",
+			"link": "https://www.youtube.com/embed/lGwj1fly6ds"
+		}
+	]
+}

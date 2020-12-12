@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Coding Advent Calendar</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/stylesheet.css">
+
+</head>
+<body>
+	<div id="wrappertop">
+		<h1>Coding Advent Calendar</h1>	
+	</div>
+	<div id="wrapper">
+		<div id="center"> 
+			<div class="content-outer">
+				<div class="content-box">
+					<br/><p>Click or tap on an open door and Santa will reveal a helpful coding snippet, tutorial or video.</p><br/>
+					<br/><br/>	
+
+					<div id="window-boxes">
+						<!--populated by JavaScript -->
+					</div>
+		
+					<div class="clear"></div>
+					<br/>
+					<label id="switch" type="submit">
+						<input type="checkbox" id="inpVal">
+						<span class="slider round"></span>
+					</label>
+					<div id="tog"><p>Toggle unlock</p></div>
+					
+
+					<div id="modal-box" class="modal">
+						
+
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<br/>
+							<canvas id="canvas1" height="30" width="280">
+								<!-- Animation drawn here -->
+							</canvas>
+							<br/>
+							<div id="article-data">
+
+								<div id="ytwrap">
+									<!--populated by JavaScript -->
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="clear"></div>
+			<script type="module" src="js/processdata.js" ></script>
+
+			<!-- snow.js from Kuris Brooks - kurisbrooks.com -->
+			<script src="js/snow.js"></script>
+			<footer>
+				<br><p class="wht"><a href="https://codechallenges.howtocodewell.net" id="tester">How to Code Well challenge</a></p>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

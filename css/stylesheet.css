@@ -1,0 +1,257 @@
+* {
+margin:0;
+padding:0;
+}
+
+html{
+background-color: black;
+min-height:100%;
+}
+
+.box {
+width: 290px;
+height: 200px;
+background: url("../images/door_open.png") no-repeat;
+background-color: #3c4930;
+margin: 8px;
+padding: 5px;
+display: inline-block;
+}
+
+.box:hover {
+background: url("../images/clickme.png") no-repeat;
+background-color: #3c4930;
+}
+
+.box-closed {
+width: 290px;
+height: 200px;
+background: url("../images/door_closed.png") no-repeat;
+background-color: #cc2223;
+margin: 8px;
+padding: 5px;
+display: inline-block;
+}
+
+.box-closed:hover{
+background: url("../images/denied.png") no-repeat;
+background-color: #cc2223;
+}
+
+#wrappertop {
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: #3c4930;
+}
+
+#mainwrapper {
+background-color: black;
+}
+
+#wrapper {
+height: auto !important;
+margin:0 auto -30;
+}
+
+#center {
+width: 85%;
+max-width: 1000px;
+margin:0 auto; 
+padding-top: 30px;
+padding-bottom:10px;
+height: 100%;
+}
+
+a {
+font-family: 'Roboto', Arial, sans-serif;
+font-size: 1.0em;
+line-height: 1.3em;
+color: white;
+}
+
+p, li {
+font-family: 'Roboto', Arial, sans-serif;
+color: white;
+font-size: 0.875em;
+line-height: 1.3em;
+letter-spacing: 0.06em;
+}
+
+p.wht {
+font-family: 'Roboto', Arial, sans-serif;
+color: white;
+font-size: 0.875em;
+line-height: 1.3em;
+}
+
+h1 {
+font-family: 'Mountains of Christmas', Arial, sans-serif;
+font-size: 3em;
+color: #dcd8cf;
+background-color: #3c4930;
+}
+
+h2 {
+font-family: 'Mountains of Christmas', Arial, sans-serif;
+font-size: 1.5em;
+letter-spacing: 0.12em;
+color: white;
+}
+
+h3 {
+font-family: 'Mountains of Christmas', Arial, sans-serif;
+font-size: 2em;
+color: white;
+}
+
+h4 {
+font-family: 'Mountains of Christmas', Arial, sans-serif;
+font-size: 1.5em;
+letter-spacing: 0.12em;
+line-height: 1.9;
+color: white;
+}
+
+.content-outer {
+margin-top: 60px;
+float: left;
+width: 100%;
+}
+
+.content-box {
+margin: 30px 5px 50px 0px;
+float: left;
+width: 100%;
+}
+
+.clear{
+clear: both;
+}
+
+#footer {
+padding-bottom: 20px;
+}
+
+.block {
+height: 32px;
+width: 50px;
+float: left;
+}
+
+.modal {
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+background-color: #48543C;
+margin: 15% auto;
+text-align: center;
+padding: 20px;
+border-radius: 20px;
+width: 80%;
+height: 90%;
+}
+
+.modal-content p {
+font-family: 'Roboto', serif;
+font-size: 1em;;
+color: #e0e0e0;
+}
+
+.close {
+color: #000000;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+} 
+
+.ytwrap {
+float: left;
+width: 310px;
+padding-bottom: 20px;
+}
+
+#tog {
+display: none;
+}
+
+#switch {
+position: relative;
+display: none;
+width: 60px;
+height: 34px;
+}
+
+#switch input { 
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+.slider:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+input:checked + .slider {
+background-color: #3c4930;
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px #3c4930;
+}
+
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+
+/* Rounded slider */
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+#canvas1 {
+}
+
